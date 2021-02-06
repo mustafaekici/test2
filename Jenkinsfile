@@ -2,6 +2,15 @@ def gv
 pipeline {
     agent any
 		stages {
+			stage("init"){
+					steps{
+						echo 'groovytest'
+						script{
+							gv = load "test.groovy"
+							 
+						}
+					}
+				}
 				stage("build"){
 				steps{
 					echo 'building the app'
@@ -20,15 +29,7 @@ pipeline {
 					}
 				}
 
-				stage("init"){
-					steps{
-						echo 'groovytest'
-						script{
-							gv = load "test.groovy"
-							 
-						}
-					}
-				}
+				
 		    
 		}
 		}
