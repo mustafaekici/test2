@@ -16,6 +16,12 @@ pipeline {
 					echo 'building the app'
 					}
 				}
+
+				stage("test"){
+					steps{
+						echo 'groovytest'
+					}
+				}
 		    
 		}
 		}
