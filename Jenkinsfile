@@ -19,8 +19,7 @@ pipeline {
 				stage("test"){
 				steps{
 					script{
-						thing = new test()
-						echo thing.foo()
+						gv.foo()
 					}
 					}
 				}
