@@ -19,7 +19,7 @@ pipeline {
 				stage("test"){
 				steps{
 					script{
-						gv.foo()
+						echo gv.foo().First
 					}
 					}
 				}
