@@ -5,7 +5,7 @@ import groovy.transform.Field
 def foo() {
 def task = "python test.py".execute()
 task.waitFor()
-First task.text
+First =task.text
 //echo 'hello'
 }
 return this
