@@ -21,7 +21,7 @@ pipeline {
 				stage("test"){
 				steps{
 					script{
-						mytest.CallBase()
+						//mytest.CallBase()
 					//	echo m.First
 					}
 					}
