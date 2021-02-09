@@ -20,7 +20,7 @@ pipeline {
 				steps{
 					script{
 						def m  = gv.foo()
-						echo m.First
+					//	echo m.First
 					}
 					}
 				}
