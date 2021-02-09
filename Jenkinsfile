@@ -19,7 +19,8 @@ pipeline {
 				stage("test"){
 				steps{
 					script{
-						echo gv.foo().First
+						def m  = gv.foo()
+						echo m.First
 					}
 					}
 				}

@@ -1,1 +1,4 @@
-print("Hello from python.")
+def myfoo():
+    return 'Hello from python.'
+
+myfoo()
