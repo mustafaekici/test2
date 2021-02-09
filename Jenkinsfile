@@ -8,7 +8,7 @@ pipeline {
 						 
 						script{
 							gv = load "test.groovy"
-							mytest = load "baseclass.groovy"
+							mytest = load "child.groovy"
 						}
 					}
 				}
