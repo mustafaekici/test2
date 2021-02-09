@@ -4,8 +4,9 @@
 def foo() {
 def task = "python test.py".execute()
 task.waitFor()
-First =task.text
+//First =task.text
 //echo 'hello'
+SayBye()
 }
 
 def sayHi(){
