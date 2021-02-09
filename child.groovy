@@ -1,4 +1,4 @@
-import BaseClass
+import business.*
 
 class AnotherClass extends BaseClass {
   def AnotherClass(options) {
