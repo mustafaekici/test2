@@ -1,4 +1,3 @@
-#!/usr/bin/env groovy
 
 class BaseClass {
   def BaseClass() {
