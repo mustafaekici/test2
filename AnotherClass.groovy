@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-evaluate(new File("./BaseClass.groovy"))
+import ./BaseClass
 class AnotherClass extends BaseClass {
   def AnotherClass() {
       println "child ctor"
