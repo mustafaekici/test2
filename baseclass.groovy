@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-package TEST2.BaseClass
+package TEST2
 
 class BaseClass {
   def BaseClass() {
