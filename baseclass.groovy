@@ -1,5 +1,3 @@
-package business
-
 class BaseClass {
   def BaseClass() {
     // Does something with options,
