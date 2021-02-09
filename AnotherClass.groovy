@@ -4,6 +4,10 @@ class AnotherClass extends BaseClass {
       echo "child ctor"
   }
   // Does stuff
+
+  def CallBase(){
+    SayHi()
+  }
 }
 
 return this

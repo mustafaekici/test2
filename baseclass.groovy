@@ -4,5 +4,9 @@ class BaseClass {
     // mainly initialization.
     echo "basector"
   }
+
+  def SayHi(){
+      echo 'hello'
+  }
   // More methods
 }
