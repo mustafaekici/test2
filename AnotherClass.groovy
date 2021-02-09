@@ -1,4 +1,3 @@
-import .\BaseClass.groovy
 
 class AnotherClass extends BaseClass {
   def AnotherClass(options) {
