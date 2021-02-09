@@ -1,4 +1,4 @@
-def gv
+gv = null
 pipeline {
     agent any
 		stages {
@@ -19,7 +19,7 @@ pipeline {
 				stage("test"){
 				steps{
 					script{
-						def m  = gv.foo()
+						gv.foo()
 					//	echo m.First
 					}
 					}

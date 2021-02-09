@@ -6,7 +6,7 @@ def foo() {
 //task.waitFor()
 //First =task.text
 //echo 'hello'
- gv.SayBye()
+SayBye()
 }
 
 def sayHi(){
