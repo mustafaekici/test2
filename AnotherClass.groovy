@@ -1,4 +1,3 @@
-
 class AnotherClass extends BaseClass {
   def AnotherClass(options) {
       echo "child ctor"
@@ -6,7 +5,7 @@ class AnotherClass extends BaseClass {
   // Does stuff
 
   def CallBase(){
-    SayHi()
+    super.SayHi()
   }
 }
 
