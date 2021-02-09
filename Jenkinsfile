@@ -1,4 +1,5 @@
 gv = null
+mytest = null
 pipeline {
     agent any
 		stages {
@@ -7,7 +8,7 @@ pipeline {
 						 
 						script{
 							gv = load "test.groovy"
-							 
+							mytest = load "baseclass.groovy"
 						}
 					}
 				}
@@ -26,7 +27,11 @@ pipeline {
 				}
 				stage("deploy"){
 				steps{
-					echo 'building the app'
+					script{
+						
+						
+				 
+					}
 					}
 				}
 
