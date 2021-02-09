@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-
+package ./
 class BaseClass {
   def BaseClass() {
     // Does something with options,
