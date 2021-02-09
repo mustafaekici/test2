@@ -9,7 +9,7 @@ pipeline {
 						script{
 							gv = load "test.groovy"
 							mytest = load "AnotherClass.groovy"
-							mytest.CallBase()
+							
 						}
 					}
 				}
@@ -21,7 +21,7 @@ pipeline {
 				stage("test"){
 				steps{
 					script{
-						gv.foo()
+						mytest.CallBase()
 					//	echo m.First
 					}
 					}
