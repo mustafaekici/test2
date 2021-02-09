@@ -1,6 +1,6 @@
 class AnotherClass extends BaseClass {
-  def AnotherClass(options) {
-      echo "child ctor"
+  def AnotherClass() {
+      println "child ctor"
   }
   // Does stuff
 /*

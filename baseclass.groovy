@@ -2,7 +2,7 @@ class BaseClass {
   def BaseClass() {
     // Does something with options,
     // mainly initialization.
-    echo "basector"
+    println "basector"
   }
 /*
   def SayHi(){
