@@ -6,11 +6,11 @@ def foo() {
 //task.waitFor()
 //First =task.text
 //echo 'hello'
-SayHi()
+this.SayHi()
 SayBye()
 }
 
-def sayHi(){
+def SayHi(){
     echo 'Hello mustafa'
     SayBye()
     //gv.SayBye()
