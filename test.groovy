@@ -13,7 +13,7 @@ SayBye()
 def sayHi(){
     echo 'Hello mustafa'
     SayBye()
-    gv.SayBye()
+    //gv.SayBye()
 }
 
 def SayBye(){
