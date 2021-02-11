@@ -1,3 +1,5 @@
+package Another
+
 import Base.BaseClass
 
 class AnotherClass extends BaseClass {
