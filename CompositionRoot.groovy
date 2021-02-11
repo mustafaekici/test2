@@ -1,5 +1,5 @@
 //import Another
-import myclass
+import BFolder.myclass
 class CompositionRoot{
 
 def Initialize(){
