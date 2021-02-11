@@ -1,4 +1,4 @@
-import Another.Another.AnotherClass
+import Another
 
 class CompositionRoot{
 
@@ -13,7 +13,7 @@ def Initialize(){
       //  String groovyFile = "mytest.groovy";
       //  Class parsedClass = groovyClassLoader.parseClass(groovyFile);
 
-      def t = new AnotherClass()
+      def t = new Another.AnotherClass()
 }
 
 }
