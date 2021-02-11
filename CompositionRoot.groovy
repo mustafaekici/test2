@@ -1,7 +1,7 @@
 //import Another
-import bfolder
-class CompositionRoot{
 
+class CompositionRoot{
+import bfolder
 def Initialize(){
 
     //var m = new mytest()
