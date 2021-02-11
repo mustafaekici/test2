@@ -1,6 +1,6 @@
 gv = null
 mytest = null
- 
+m=null
 
 pipeline {
     agent any
@@ -12,7 +12,7 @@ pipeline {
 							gv = load "test.groovy"
 							//mytest = load "AnotherClass.groovy"
 							//def s = new AnotherClass()
-							def m = load "CompositionRoot.groovy"
+						    m = load "CompositionRoot.groovy"
 							def s  =m.getProperty('CompositionRoot')
 							echo s.Initialize()
 						}
