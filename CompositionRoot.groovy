@@ -1,5 +1,5 @@
 //import Another
-//import var.jenkins_home.workspace.test_master.BFolder
+import BFolder
 class CompositionRoot{
 
 def Initialize(){
@@ -14,9 +14,9 @@ def Initialize(){
       //  Class parsedClass = groovyClassLoader.parseClass(groovyFile);
 
      // def t = new AnotherClass()
-     //def m = new myclass()
+     def m = new myclass()
       
-     return getClass().protectionDomain.codeSource.location.path
+     //return getClass().protectionDomain.codeSource.location.path
 }
 
 }

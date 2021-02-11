@@ -1,4 +1,4 @@
-package var.jenkins_home.workspace.test_master.BFolder
+package BFolder
 
 class myclass {
     def myclass(){
