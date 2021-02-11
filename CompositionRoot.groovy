@@ -15,8 +15,8 @@ def Initialize(){
 
      // def t = new AnotherClass()
      //def m = new myclass()
-     def workspace = pwd()
-     return ${workspace}
+      
+     return getClass().protectionDomain.codeSource.location.path
 }
 
 }
