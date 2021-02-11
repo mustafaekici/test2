@@ -1,6 +1,6 @@
 
-class BaseClass {
-  def BaseClass() {
+trait class BaseClass {
+  def testbase() {
     // Does something with options,
     // mainly initialization.
     println "basector"

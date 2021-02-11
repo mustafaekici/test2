@@ -1,7 +1,6 @@
-import BaseClass
 
 class AnotherClass extends BaseClass {
-  def AnotherClass() {
+  def testanother() {
       println "child ctor"
   }
   // Does stuff
