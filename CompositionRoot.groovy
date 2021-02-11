@@ -4,8 +4,14 @@ class CompositionRoot{
 
 def Initialize(){
 
-    var m = new mytest()
-    
+    //var m = new mytest()
+      GroovyClassLoader groovyClassLoader = new GroovyClassLoader();
+
+        // add "lib" to the classpath
+        groovyClassLoader.addClasspath("lib");
+
+        String groovyFile = "mytest.groovy";
+        Class parsedClass = groovyClassLoader.parseClass(groovyFile);
 
 }
 
