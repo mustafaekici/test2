@@ -1,0 +1,1 @@
+def c = new AnotherClass()

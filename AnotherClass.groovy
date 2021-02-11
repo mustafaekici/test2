@@ -1,6 +1,5 @@
-import test2.Base.* 
+import Base.BaseClass
 
-package test2.*
 class AnotherClass extends BaseClass {
   def AnotherClass() {
       println "child ctor"

@@ -1,4 +1,4 @@
-package test2.Base
+package Base
 class BaseClass {
   def BaseClass() {
     // Does something with options,
