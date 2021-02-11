@@ -15,7 +15,8 @@ def Initialize(){
 
      // def t = new AnotherClass()
      //def m = new myclass()
-     return ${WORKSPACE}
+     def workspace = pwd()
+     return ${workspace}
 }
 
 }
