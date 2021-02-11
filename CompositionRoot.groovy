@@ -1,4 +1,4 @@
-import AnotherClass
+import test2.*
 
 class CompositionRoot{
 
