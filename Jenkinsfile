@@ -13,7 +13,7 @@ pipeline {
 							//mytest = load "AnotherClass.groovy"
 							//def s = new AnotherClass()
 							def m = load "CompositionRoot.groovy"
-							def s  =cl.getProperty('CompositionRoot')
+							def s  =m.getProperty('CompositionRoot')
 							s.Initialize()
 						}
 					}
