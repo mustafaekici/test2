@@ -1,4 +1,4 @@
-package BFolder
+package bfolder
 
 class myclass {
     def myclass(){
