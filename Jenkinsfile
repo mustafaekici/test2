@@ -9,12 +9,12 @@ pipeline {
 					steps{
 						 
 						script{
-							gv = load "test.groovy"
+							//gv = load "test.groovy"
 							//mytest = load "AnotherClass.groovy"
 							//def s = new AnotherClass()
 						    m = load "CompositionRoot.groovy"
-							def s  =m.getProperty('CompositionRoot')
-							echo s.Initialize()
+						//	def s  =m.getProperty('CompositionRoot')
+						//	echo s.Initialize()
 						}
 					}
 				}
@@ -26,7 +26,7 @@ pipeline {
 				stage("test"){
 				steps{
 					script{
-						gv.foo()
+						//gv.foo()
 					//	echo m.First
 					}
 					}
