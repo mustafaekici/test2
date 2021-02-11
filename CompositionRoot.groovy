@@ -8,7 +8,7 @@ def Initialize(){
       GroovyClassLoader groovyClassLoader = new GroovyClassLoader();
 
         // add "lib" to the classpath
-        groovyClassLoader.addClasspath("lib");
+      //  groovyClassLoader.addClasspath("lib");
 
         String groovyFile = "mytest.groovy";
         Class parsedClass = groovyClassLoader.parseClass(groovyFile);
