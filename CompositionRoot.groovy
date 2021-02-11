@@ -1,5 +1,5 @@
 //import Another
-import bfolder
+//import bfolder
 class CompositionRoot{
 
 def Initialize(){
@@ -14,7 +14,7 @@ def Initialize(){
       //  Class parsedClass = groovyClassLoader.parseClass(groovyFile);
 
      // def t = new AnotherClass()
-     def m = new myclass()
+     //def m = new myclass()
       
      //return getClass().protectionDomain.codeSource.location.path
 }
