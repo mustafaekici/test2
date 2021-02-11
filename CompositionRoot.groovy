@@ -1,5 +1,16 @@
 //import Another
 //import bfolder
+class AnotherClass extends BaseClass {
+  def AnotherClass() {
+      println "child ctor"
+  }
+  // Does stuff
+/*
+  def CallBase(){
+    super.SayHi()
+  }*/
+}
+
 class CompositionRoot{
 
 def Initialize(){
@@ -14,7 +25,7 @@ def Initialize(){
       //  Class parsedClass = groovyClassLoader.parseClass(groovyFile);
 
      // def t = new AnotherClass()
-     def m = new bfolder.myclass()
+     def m = new myclass()
       
      //return getClass().protectionDomain.codeSource.location.path
 }
