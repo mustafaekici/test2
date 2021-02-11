@@ -11,5 +11,3 @@ class BaseClass {
   } */
   // More methods
 }
-
-return this

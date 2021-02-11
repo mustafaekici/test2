@@ -1,3 +1,4 @@
+import ./test2.BaseClass
 
 class AnotherClass extends BaseClass {
   def AnotherClass() {
