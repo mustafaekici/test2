@@ -1,4 +1,5 @@
- 
+import test2.Base.* 
+
 package test2.*
 class AnotherClass extends BaseClass {
   def AnotherClass() {
