@@ -1,3 +1,4 @@
+import BaseClass
 
 class AnotherClass extends BaseClass {
   def AnotherClass() {
