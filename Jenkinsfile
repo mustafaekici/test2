@@ -1,5 +1,7 @@
 gv = null
 mytest = null
+import Base.*
+
 pipeline {
     agent any
 		stages {
