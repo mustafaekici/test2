@@ -1,14 +1,9 @@
 //import Another
 //import bfolder
-class AnotherClass extends BaseClass {
-  def AnotherClass() {
-      println "child ctor"
-  }
-  // Does stuff
-/*
-  def CallBase(){
-    super.SayHi()
-  }*/
+class myclass {
+    def myclass(){
+        println "ctor"
+    }
 }
 
 class CompositionRoot{
