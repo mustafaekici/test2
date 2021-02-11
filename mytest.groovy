@@ -1,3 +1,4 @@
+pacakge mytest
 class mytest {
   def mytest() {
       println "child ctor"
