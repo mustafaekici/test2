@@ -25,10 +25,7 @@ pipeline {
 				}
 				stage("test"){
 				steps{
-					script{
-						//gv.foo()
-					//	echo m.First
-					}
+				echo 'deploy the app'
 					}
 				}
 				stage("deploy"){
