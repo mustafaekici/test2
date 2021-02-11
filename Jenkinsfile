@@ -13,7 +13,8 @@ pipeline {
 							//mytest = load "AnotherClass.groovy"
 							//def s = new AnotherClass()
 							def m = load "CompositionRoot.groovy"
-							m.Initialize()
+							def s  =m.CompositionRoot
+							s.Initialize()
 						}
 					}
 				}
