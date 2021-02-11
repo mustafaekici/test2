@@ -1,3 +1,5 @@
+import AnotherClass
+
 class CompositionRoot{
 
 def Initialize(){
