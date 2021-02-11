@@ -8,8 +8,8 @@ pipeline {
 						 
 						script{
 							gv = load "test.groovy"
-							mytest = load "AnotherClass.groovy"
-							
+							//mytest = load "AnotherClass.groovy"
+							def s = new AnotherClass()
 						}
 					}
 				}
