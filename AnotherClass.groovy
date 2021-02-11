@@ -1,6 +1,6 @@
 
 class AnotherClass extends BaseClass {
-  def testanother() {
+  def AnotherClass() {
       println "child ctor"
   }
   // Does stuff
@@ -10,4 +10,4 @@ class AnotherClass extends BaseClass {
   }*/
 }
 
-return this
+return new AnotherClass()
