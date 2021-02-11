@@ -1,4 +1,4 @@
-import Base.BaseClass
+import Base.*
 
 class AnotherClass extends BaseClass {
   def AnotherClass() {
