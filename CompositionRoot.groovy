@@ -2,7 +2,7 @@
 //import bfolder
 class myclass {
     def myclass(){
-        echo "ctor"
+        println "ctor"
     }
 }
 
