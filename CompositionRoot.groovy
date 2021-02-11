@@ -9,4 +9,3 @@ def Initialize(){
 
 }
 
-return new CompositionRoot()
