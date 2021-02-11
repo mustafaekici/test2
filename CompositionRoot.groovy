@@ -1,8 +1,8 @@
 //import Another
-//import bfolder
+import bfolder
 class myclass {
     def myclass(){
-        println "ctor"
+       // println "ctor"
     }
 }
 
