@@ -1,4 +1,4 @@
-import ./test2.BaseClass
+import Base.BaseClass
 
 class AnotherClass extends BaseClass {
   def AnotherClass() {
@@ -11,4 +11,4 @@ class AnotherClass extends BaseClass {
   }*/
 }
 
-return new AnotherClass()
+return this
