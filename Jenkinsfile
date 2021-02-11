@@ -14,7 +14,7 @@ pipeline {
 							//def s = new AnotherClass()
 						    m = load "CompositionRoot.groovy"
 						    def s  =m.getProperty('CompositionRoot')
-						//	echo s.Initialize()
+						    s.Initialize()
 						}
 					}
 				}
