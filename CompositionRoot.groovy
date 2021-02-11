@@ -1,4 +1,4 @@
-import Another
+import Another.Another.AnotherClass
 
 class CompositionRoot{
 
