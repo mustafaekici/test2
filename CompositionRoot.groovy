@@ -4,7 +4,7 @@ class CompositionRoot{
 
 def Initialize(){
 
-    var m = new AnotherClass()
+    var m = new mytest()
     
 
 }
