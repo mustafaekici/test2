@@ -14,7 +14,7 @@ def Initialize(){
       //  Class parsedClass = groovyClassLoader.parseClass(groovyFile);
 
      // def t = new AnotherClass()
-     def m = new BFolder.myclass()
+     def m = new myclass()
       
      //return getClass().protectionDomain.codeSource.location.path
 }
