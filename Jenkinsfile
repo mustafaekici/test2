@@ -1,6 +1,6 @@
 gv = null
 mytest = null
-import Base.*
+ 
 
 pipeline {
     agent any
@@ -11,7 +11,9 @@ pipeline {
 						script{
 							gv = load "test.groovy"
 							//mytest = load "AnotherClass.groovy"
-							def s = new AnotherClass()
+							//def s = new AnotherClass()
+							def m = load "CompositionRoot.groovy"
+							m.Initialize()
 						}
 					}
 				}

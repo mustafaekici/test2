@@ -11,4 +11,3 @@ class AnotherClass extends BaseClass {
   }*/
 }
 
-return this
