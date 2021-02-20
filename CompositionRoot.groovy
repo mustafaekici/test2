@@ -31,7 +31,8 @@
 // }
 
 // }
-import test2.Base.BaseClass
+
+import var.jenkins_home.workspace.test_master.test2.Base.BaseClass
 def Run(){
   stage('some kind of stage 2') {
         echo "Hello from stage 1 with "
