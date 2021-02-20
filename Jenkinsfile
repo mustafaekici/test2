@@ -1,5 +1,5 @@
 library 'CompositionRoot'
-def t = new CompositionRoot()
+SayHello()
 gv = null
 mytest = null
 m=null

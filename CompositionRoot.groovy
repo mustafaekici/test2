@@ -26,4 +26,8 @@ def Initialize(){
      //return getClass().protectionDomain.codeSource.location.path
 }
 
+def SayHello(){
+  
+}
+
 }
