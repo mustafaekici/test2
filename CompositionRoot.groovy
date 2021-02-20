@@ -31,10 +31,7 @@
 // }
 
 // }
-@Grab('com.oracle:ojdbc6:11.2.0.4')
-	import groovy.sql.Sql;
-    import java.util.ServiceLoader;
-    import java.sql.Driver;
+import Base.BaseClass
 def Run(){
   stage('some kind of stage 2') {
         echo "Hello from stage 1 with "
