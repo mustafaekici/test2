@@ -21,22 +21,7 @@ pipeline {
 						}
 					}
 				}
-				stage("build"){
-				steps{
-					echo 'building the app'
-					}
-				}
-				stage("test"){
-				steps{
-				echo 'deploy the app'
-					}
-				}
-				stage("deploy"){
-				steps{
-					 echo 'deploy the app'
-					}
-				}
-
+				 
 				
 		    
 		}

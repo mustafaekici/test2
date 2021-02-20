@@ -33,7 +33,15 @@
 // }
 
 def Run(){
-  echo 'hello from compositionRoot'
+  stage('some kind of stage 2') {
+        echo "Hello from stage 1 with "
+        
+
+    }
+    stage('second stage'){
+            echo "and one from stage 2"
+          
+    }
 
 }
 
