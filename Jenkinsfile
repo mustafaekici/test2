@@ -1,3 +1,4 @@
+library 'CompositionRoot'
 gv = null
 mytest = null
 m=null
@@ -12,9 +13,10 @@ pipeline {
 							//gv = load "test.groovy"
 							//mytest = load "AnotherClass.groovy"
 							//def s = new AnotherClass()
-						    m = load "CompositionRoot.groovy"
-						    def s  =m.getProperty('CompositionRoot')
-						    s.Initialize()
+						    // m = load "CompositionRoot.groovy"
+						    // def s  =m.getProperty('CompositionRoot')
+						    // s.Initialize()
+							def t = new CompositionRoot()
 						}
 					}
 				}

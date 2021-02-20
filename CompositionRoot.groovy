@@ -1,5 +1,6 @@
 //import Another
-import bfolder
+//import bfolder
+
 class myclass {
     def myclass(){
        // println "ctor"
@@ -26,10 +27,3 @@ def Initialize(){
 }
 
 }
-
-// this method just to have nice access to create class by name
-Object getProperty(String name){
-    return this.getClass().getClassLoader().loadClass(name).newInstance();
-}
-
-return this
