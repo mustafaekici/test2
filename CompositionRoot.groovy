@@ -31,7 +31,7 @@
 // }
 
 // }
-final myOneLib = library('BaseClass')
+final myOneLib = library('Base.BaseClass')
 def Run(){
   stage('some kind of stage 2') {
         echo "Hello from stage 1 with "
