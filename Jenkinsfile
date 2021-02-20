@@ -1,5 +1,3 @@
-library 'CompositionRoot'
-SayHello()
 gv = null
 mytest = null
 m=null
@@ -15,7 +13,8 @@ pipeline {
 							//gv = load "test.groovy"
 							//mytest = load "AnotherClass.groovy"
 							//def s = new AnotherClass()
-						    // m = load "CompositionRoot.groovy"
+						    m = load "CompositionRoot.groovy"
+							m.Run()
 						    // def s  =m.getProperty('CompositionRoot')
 						    // s.Initialize()
 							
