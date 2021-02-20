@@ -32,10 +32,7 @@
 
 // }
 
-
-
-import org.apache.commons.lang.StringUtils
-library 'Base'
+library 'var.jenkins_home.workspace.test_master.test2.Base'
 def Run(){
   stage('some kind of stage 2') {
         echo "Hello from stage 1 with "
