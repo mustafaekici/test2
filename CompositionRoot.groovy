@@ -32,7 +32,8 @@
 
 // }
 
-final myOneLib = library('Base')
+library 'Base'
+import Base
 def Run(){
   stage('some kind of stage 2') {
         echo "Hello from stage 1 with "
