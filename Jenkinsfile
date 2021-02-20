@@ -11,6 +11,7 @@ pipeline {
 					steps{
 						 
 						script{
+							echo 'init stage'
 							//gv = load "test.groovy"
 							//mytest = load "AnotherClass.groovy"
 							//def s = new AnotherClass()
