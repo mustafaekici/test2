@@ -21,7 +21,7 @@ pipeline {
 						    // s.Initialize()
 
 							sh '''#!/bin/bash
-                     sh "cd ${pwd()}"
+                      "cd ${pwd()}"
                      "groovy ${pwd()}//main.groovy"
                 '''
 							
