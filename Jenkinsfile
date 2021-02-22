@@ -20,7 +20,7 @@ pipeline {
 						    // def s  =m.getProperty('CompositionRoot')
 						    // s.Initialize()
 
-							sh "ls -la ${pwd()}/Another"
+							sh "ls -la ${pwd()}//Another"
 							
 						}
 					}
