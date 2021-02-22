@@ -20,7 +20,7 @@ pipeline {
 						    // def s  =m.getProperty('CompositionRoot')
 						    // s.Initialize()
 
-						    sh 'groovy .\main.groovy'
+						    sh 'groovy main.groovy'
 							
 						}
 					}
