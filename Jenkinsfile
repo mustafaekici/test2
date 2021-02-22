@@ -22,7 +22,7 @@ pipeline {
 
 						  //  sh 'groovy ./main.groovy'
 						 // sh "ls -la ${pwd()}"
-						 sh "groovy ${pwd()}/main.groovy"
+						 sh "groovy ${pwd()}//main.groovy"
 							
 						}
 					}
