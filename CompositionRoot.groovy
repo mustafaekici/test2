@@ -32,8 +32,9 @@
 
 // }
 
-library 'Base'
-import Base
+
+
+import Base.BaseClass
 def Run(){
   stage('some kind of stage 2') {
         echo "Hello from stage 1 with "
