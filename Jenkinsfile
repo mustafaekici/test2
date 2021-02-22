@@ -20,11 +20,7 @@ pipeline {
 						    // def s  =m.getProperty('CompositionRoot')
 						    // s.Initialize()
 
-							sh '''#!/bin/bash
-                    echo "Hello from bash"
-                    echo "Who I'm $SHELL"
-					groovy main.groovy
-                '''
+						    sh 'groovy .\main.groovy'
 							
 						}
 					}
