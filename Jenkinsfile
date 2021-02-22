@@ -15,14 +15,15 @@ pipeline {
 							//def s = new AnotherClass()
 							// def rootDir = pwd()
 							// echo 'rootDir is ' + rootDir
-						    // // m = load "CompositionRoot.groovy"
+						    // m = load "CompositionRoot.groovy"
 							// m.Run()
 						    // def s  =m.getProperty('CompositionRoot')
 						    // s.Initialize()
 
-						  //  sh 'groovy ./main.groovy'
-						 // sh "ls -la ${pwd()}"
-						 sh "groovy ${pwd()}//main.groovy"
+							sh '''#!/bin/bash
+                     sh "cd ${pwd()}"
+                     "groovy ${pwd()}//main.groovy"
+                '''
 							
 						}
 					}
