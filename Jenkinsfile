@@ -20,9 +20,9 @@ pipeline {
 						    // def s  =m.getProperty('CompositionRoot')
 						    // s.Initialize()
 
-							sh '''#!/bin/bash
+							sh '''
                       "cd ${pwd()}"
-                     "groovy ${pwd()}//main.groovy"
+                     "ls"
                 '''
 							
 						}
